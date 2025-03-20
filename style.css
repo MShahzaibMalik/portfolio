@@ -1,0 +1,86 @@
+/* Reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .my-name {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: #fff; /* bright white for clarity */
+    margin-bottom: 10px;
+  }
+  
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+    color: white;
+    padding: 40px;
+    min-height: 100vh;
+  }
+  
+  /* Smooth transitions for hover effects */
+  a, h1, h2 {
+    transition: all 0.3s ease;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+h1 {
+  font-size: 3em;
+  color: white; /* Name is now white */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Optional shadow for better visibility */
+}
+
+  
+  p {
+    line-height: 1.8;
+  }
+  
+  section {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fcb045;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  a {
+    color: #fcb045;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #fcb045;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0.9em;
+    color: #ddd;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
